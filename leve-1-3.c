@@ -58,3 +58,4 @@ int main() {
 }
 
 //memmove 是把 str + i 位置的内容往前移动 i 个位置，len - i + 1 是为了把字符串结尾的 '\0' 也一起移动过去(一共移动的位数)
+//fprintf(stderr, "Line%d: :Missing colon in target definition\n", line_number);  //标准错误输出

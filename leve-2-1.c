@@ -114,3 +114,12 @@ int main(int argc, char* argv[]){
     }
     return 0;
 }
+
+//strdup strdup(dependencies);  //字符串复制 并分配内存
+//perror("为 MakeRule 分配内存失败");  //打印错误信息
+//strstr(line, ":");  //查找字符串中第一次出现:的位置 并返回该位置的指针
+//strncpy(target, line, MAX_NAME_LEN);  //字符串复制 指定最大长度
+//strcspn(command, "\n")  //查找字符串中第一次出现\n的位置 并返回该位置的索引
+//fgets(command, sizeof(command), stdin)  //从标准输入读取一行到command中
+//strstr(src, sub)  //查找字符串中第一次出现sub的位置 并返回该位置的指针
+//memcpy(dst, src, copy_len);  //内存复制 将src中的内容复制到dst中 指定复制的字节数  

@@ -54,11 +54,12 @@ int main(int argc, char* argv[]) {
 
     return 0;
 }
-//strcmp strcmp(aoieue,aoieue) == 0(第三项加数字就是比两字符串前几位相等)
-//isspace((unsigned char)line[len - 1])  //判断是否为空格
-//strchr(line, '#')  //查找#在字符串中的位置 并返回该位置的指针
-//FILE* input_file = fopen(INPUT_FILE, "r");  //打开文件 读模式 文件指针
-//fgets(buffer, BUFFER_SIZE, input_file)  //从文件中读取一行到buffer中
-//fputs(buffer, output_file);  //将buffer中的内容写入到output_file中
-//fputc('\n', output_file); //fputs 不会自动添加换行符 需要手动添加
-//fclose(input_file);  //关闭文件
+// strcmp strcmp(aoieue,aoieue) == 0(第三项加数字就是比两字符串前几位相等)
+// isspace((unsigned char)line[len - 1])  //判断是否为空格
+// strchr(line, '#')  //查找#在字符串中的位置 并返回该位置的指针
+// FILE* input_file = fopen(INPUT_FILE, "r");  //打开文件 读模式 文件指针
+// fgets(buffer, BUFFER_SIZE, input_file)  //从文件中读取一行到buffer中
+// fputs(buffer, output_file);  //将buffer中的内容写入到output_file中
+// fputc('\n', output_file); //fputs 不会自动添加换行符 需要手动添加
+// fclose(input_file);  //关闭文件
+// fopen("Minimake_cleared.mk", "w");  //写模式 如果文件不存在则创建 如果存在则清空原有内容
